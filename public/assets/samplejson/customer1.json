@@ -1,0 +1,12 @@
+{
+	"id": 1,
+	"name": "Lubos Olejar",
+	"email": "lubos.olejar@visma.com",
+	"phone": "+421911123456",
+	"city": "Kosice",
+	"state": "Slovakia",
+	"country": "Slovakia",
+	"organization": "Visma Labs s.r.o",
+	"jobProfile": "DevOps Engineer",
+	"additionalInfo": "None"
+}
