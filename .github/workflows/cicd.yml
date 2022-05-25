@@ -49,8 +49,9 @@ jobs:
         name: production-files
         path: ./build
 
-    - name: Deploy to gh-pages
-      uses: peaceiris/actions-gh-pages@v3
+    - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
       with:
-        github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-        publish_dir: ./build
+        appdir: ./build
+        heroku_api_key: ${{secrets.ACTIONS_DEPLOY_ACCESS_TOKEN}}
+        heroku_app_name: "lolejar-academy" #Must be unique in Heroku
+        heroku_email: "lubos.olejar@gmail.com"
