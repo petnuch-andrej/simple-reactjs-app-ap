@@ -32,7 +32,6 @@ jobs:
 
     - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
       with:
-        args: deploy --dir=build --prod
         heroku_api_key: ${{secrets.ACTIONS_DEPLOY_ACCESS_TOKEN}}
         heroku_app_name: "lolejar-academy" #Must be unique in Heroku
         heroku_email: "lubos.olejar@gmail.com"

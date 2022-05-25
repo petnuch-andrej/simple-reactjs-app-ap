@@ -12,7 +12,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://lolejar-academy.herokuapp.com/"
+          href="https://lolejar-academy.herokuapp.com"
           target="_blank"
           rel="noopener noreferrer"
         >
